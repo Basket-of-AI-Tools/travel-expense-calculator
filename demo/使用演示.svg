@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1400" viewBox="0 0 1440 1400" role="img" aria-labelledby="title desc">
+  <title id="title">旅行花费计算器新手操作图</title>
+  <desc id="desc">展示启动程序、录入旅行花费、自动保存、查看汇总报表的操作步骤。界面和数据为示意。</desc>
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f766e"/><stop offset="1" stop-color="#14b8a6"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity=".10"/></filter>
+  </defs>
+  <rect width="1440" height="1400" fill="#f1f5f9"/>
+  <rect x="0" y="0" width="1440" height="215" fill="url(#hero)"/>
+  <text x="72" y="76" fill="#ccfbf1" font-family="Microsoft YaHei UI, sans-serif" font-size="20" font-weight="700">便携软件 · 新手操作图</text>
+  <text x="72" y="137" fill="#ffffff" font-family="Microsoft YaHei UI, sans-serif" font-size="46" font-weight="700">旅行花费计算器</text>
+  <text x="74" y="180" fill="#e6fffb" font-family="Microsoft YaHei UI, sans-serif" font-size="22">双击启动 → 填写一笔花费 → 自动换算 → 打开旅行汇总</text>
+  <rect x="1150" y="55" width="210" height="50" rx="25" fill="#ffffff" fill-opacity=".18"/>
+  <text x="1255" y="87" text-anchor="middle" fill="#ffffff" font-family="Microsoft YaHei UI, sans-serif" font-size="18" font-weight="700">离线运行 · 本地保存</text>
+
+  <g font-family="Microsoft YaHei UI, sans-serif">
+    <g filter="url(#shadow)"><rect x="72" y="245" width="306" height="116" rx="18" fill="#ffffff"/><rect x="400" y="245" width="306" height="116" rx="18" fill="#ffffff"/><rect x="728" y="245" width="306" height="116" rx="18" fill="#ffffff"/><rect x="1056" y="245" width="312" height="116" rx="18" fill="#ffffff"/></g>
+    <circle cx="112" cy="285" r="22" fill="#ccfbf1"/><text x="112" y="293" text-anchor="middle" fill="#0f766e" font-size="22" font-weight="700">1</text>
+    <text x="148" y="283" fill="#0f172a" font-size="21" font-weight="700">启动</text><text x="148" y="319" fill="#475569" font-size="17">解压后双击旅行花费计算器.exe</text>
+    <circle cx="440" cy="285" r="22" fill="#ccfbf1"/><text x="440" y="293" text-anchor="middle" fill="#0f766e" font-size="22" font-weight="700">2</text>
+    <text x="476" y="283" fill="#0f172a" font-size="21" font-weight="700">填写</text><text x="476" y="319" fill="#475569" font-size="17">日期、项目、金额、币种等</text>
+    <circle cx="768" cy="285" r="22" fill="#ccfbf1"/><text x="768" y="293" text-anchor="middle" fill="#0f766e" font-size="22" font-weight="700">3</text>
+    <text x="804" y="283" fill="#0f172a" font-size="21" font-weight="700">新增</text><text x="804" y="319" fill="#475569" font-size="17">点击新增，记录自动保存在本机</text>
+    <circle cx="1096" cy="285" r="22" fill="#ccfbf1"/><text x="1096" y="293" text-anchor="middle" fill="#0f766e" font-size="22" font-weight="700">4</text>
+    <text x="1132" y="283" fill="#0f172a" font-size="21" font-weight="700">查看</text><text x="1132" y="319" fill="#475569" font-size="17">点击打开互动汇总</text>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Microsoft YaHei UI, sans-serif">
+    <rect x="72" y="390" width="1296" height="592" rx="18" fill="#ffffff"/>
+    <path d="M90 390h1260a18 18 0 0 1 18 18v54H72v-54a18 18 0 0 1 18-18z" fill="#e2e8f0"/>
+    <circle cx="103" cy="428" r="7" fill="#fb7185"/><circle cx="126" cy="428" r="7" fill="#fbbf24"/><circle cx="149" cy="428" r="7" fill="#34d399"/>
+    <text x="183" y="435" fill="#334155" font-size="18" font-weight="700">旅行花费计算器　|　示例周末行程</text>
+    <rect x="865" y="405" width="205" height="40" rx="8" fill="#ffffff" stroke="#cbd5e1"/><text x="886" y="431" fill="#94a3b8" font-size="16">搜索花费记录…</text>
+    <rect x="1084" y="405" width="145" height="40" rx="8" fill="#0f766e"/><text x="1156" y="431" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">打开互动汇总</text>
+    <rect x="1241" y="405" width="112" height="40" rx="8" fill="#ffffff" stroke="#0f766e"/><text x="1297" y="431" text-anchor="middle" fill="#0f766e" font-size="15" font-weight="700">新建/重置</text>
+
+    <rect x="92" y="468" width="1256" height="45" rx="6" fill="#f1f5f9"/>
+    <g fill="#475569" font-size="15" font-weight="700"><text x="110" y="496">日期</text><text x="218" y="496">项目</text><text x="390" y="496">类别</text><text x="530" y="496">商家/地点</text><text x="720" y="496">原币金额</text><text x="855" y="496">币种</text><text x="955" y="496">换算金额</text><text x="1110" y="496">备注</text></g>
+    <g fill="#0f172a" font-size="15"><text x="110" y="548">2026-05-01</text><text x="218" y="548">市内交通</text><text x="390" y="548">交通</text><text x="530" y="548">示例商户 A</text><text x="720" y="548">32.00</text><text x="855" y="548">CNY</text><text x="955" y="548">¥32.00</text><text x="1110" y="548">虚构演示数据</text></g>
+    <path d="M92 565h1256" stroke="#e2e8f0"/>
+    <g fill="#0f172a" font-size="15"><text x="110" y="597">2026-05-01</text><text x="218" y="597">示例住宿</text><text x="390" y="597">住宿</text><text x="530" y="597">示例商户 B</text><text x="720" y="597">680.00</text><text x="855" y="597">CNY</text><text x="955" y="597">¥680.00</text><text x="1110" y="597">虚构演示数据</text></g>
+    <path d="M92 614h1256" stroke="#e2e8f0"/>
+    <g fill="#0f172a" font-size="15"><text x="110" y="646">2026-05-02</text><text x="218" y="646">博物馆门票</text><text x="390" y="646">景点/活动</text><text x="530" y="646">示例场馆</text><text x="720" y="646">60.00</text><text x="855" y="646">CNY</text><text x="955" y="646">¥60.00</text><text x="1110" y="646">虚构演示数据</text></g>
+    <path d="M92 663h1256" stroke="#e2e8f0"/>
+    <rect x="92" y="676" width="1256" height="42" rx="6" fill="#f0fdfa"/>
+    <g fill="#0f172a" font-size="15"><text x="110" y="703">2026-05-02</text><text x="218" y="703">主题咖啡馆</text><text x="390" y="703">餐饮</text><text x="530" y="703">示例商户 C</text><text x="720" y="703">1,400.00</text><text x="855" y="703">JPY</text><text x="955" y="703">¥67.20</text><text x="1110" y="703">按演示汇率换算</text></g>
+
+    <rect x="92" y="735" width="1256" height="220" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="112" y="769" fill="#0f172a" font-size="19" font-weight="700">在下方填写一笔花费</text>
+    <g fill="#64748b" font-size="14"><text x="112" y="802">日期</text><text x="256" y="802">项目</text><text x="442" y="802">类别</text><text x="600" y="802">原币金额</text><text x="738" y="802">币种</text><text x="850" y="802">汇率</text><text x="1008" y="802">商家/地点</text><text x="1195" y="802">备注</text></g>
+    <g fill="#ffffff" stroke="#cbd5e1"><rect x="112" y="811" width="124" height="42" rx="6"/><rect x="256" y="811" width="170" height="42" rx="6"/><rect x="442" y="811" width="146" height="42" rx="6"/><rect x="600" y="811" width="120" height="42" rx="6"/><rect x="738" y="811" width="94" height="42" rx="6"/><rect x="850" y="811" width="142" height="42" rx="6"/><rect x="1008" y="811" width="171" height="42" rx="6"/><rect x="1195" y="811" width="133" height="42" rx="6"/></g>
+    <g fill="#334155" font-size="15"><text x="124" y="838">2026-05-03</text><text x="268" y="838">午餐</text><text x="454" y="838">餐饮</text><text x="612" y="838">38.00</text><text x="750" y="838">CNY</text><text x="862" y="838">1</text><text x="1020" y="838">示例餐厅</text><text x="1207" y="838">示例</text></g>
+    <g><rect x="112" y="874" width="94" height="38" rx="7" fill="#0f766e"/><text x="159" y="899" text-anchor="middle" fill="#ffffff" font-family="Microsoft YaHei UI, sans-serif" font-size="15" font-weight="700">新增</text><rect x="220" y="874" width="120" height="38" rx="7" fill="#ffffff" stroke="#94a3b8"/><text x="280" y="899" text-anchor="middle" fill="#334155" font-family="Microsoft YaHei UI, sans-serif" font-size="15">保存修改</text><rect x="354" y="874" width="120" height="38" rx="7" fill="#ffffff" stroke="#94a3b8"/><text x="414" y="899" text-anchor="middle" fill="#334155" font-family="Microsoft YaHei UI, sans-serif" font-size="15">清空输入</text><rect x="1022" y="874" width="306" height="38" rx="7" fill="#ccfbf1"/><text x="1175" y="899" text-anchor="middle" fill="#0f766e" font-family="Microsoft YaHei UI, sans-serif" font-size="15" font-weight="700">实时换算预览：CNY ¥38.00</text></g>
+  </g>
+
+  <g font-family="Microsoft YaHei UI, sans-serif">
+    <rect x="72" y="1010" width="1296" height="270" rx="18" fill="#ffffff" filter="url(#shadow)"/>
+    <text x="105" y="1060" fill="#0f172a" font-size="25" font-weight="700">最后一步：打开汇总报表</text>
+    <text x="105" y="1097" fill="#475569" font-size="18">点击窗口顶部的「打开互动汇总」，程序会更新并打开本地 HTML 报表。</text>
+    <rect x="105" y="1120" width="360" height="125" rx="14" fill="#f0fdfa"/>
+    <text x="132" y="1157" fill="#0f766e" font-size="16" font-weight="700">虚构演示行程总额</text>
+    <text x="132" y="1211" fill="#0f172a" font-size="42" font-weight="700">¥839.20</text>
+    <rect x="490" y="1120" width="838" height="125" rx="14" fill="#f8fafc"/>
+    <g fill="#334155" font-size="17"><text x="520" y="1157">交通　¥32.00</text><text x="745" y="1157">住宿　¥680.00</text><text x="985" y="1157">景点/活动　¥60.00</text><text x="520" y="1200">餐饮　¥67.20</text><text x="745" y="1200">数据文件：travel-data.json</text><text x="1055" y="1200">报表：旅行花费汇总.html</text></g>
+    <text x="72" y="1332" fill="#64748b" font-family="Microsoft YaHei UI, sans-serif" font-size="16">以上为操作界面示意图，内容取自虚构样例；软件数据保存在软件目录中，不会上传。</text>
+  </g>
+</svg>

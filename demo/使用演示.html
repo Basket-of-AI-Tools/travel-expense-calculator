@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>旅行花费计算器｜新手操作演示</title>
+  <style>
+    :root { color-scheme: light; font-family: "Microsoft YaHei UI", "Segoe UI", sans-serif; color: #0f172a; background: #f1f5f9; }
+    body { margin: 0; } header { padding: 34px max(22px, calc((100vw - 1040px)/2)); color: white; background: linear-gradient(125deg,#0f766e,#14b8a6); }
+    main { max-width: 1040px; margin: 28px auto; padding: 0 20px 50px; } h1 { margin: 0; font-size: 32px; } h2 { margin-top: 34px; } p, li { line-height: 1.8; color: #334155; }
+    .card { background: white; padding: 20px 24px; margin: 18px 0; border-radius: 16px; box-shadow: 0 8px 30px #0f172a12; }
+    img { width: 100%; height: auto; border-radius: 12px; } a { color: #0f766e; } .note { color: #64748b; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header><h1>旅行花费计算器｜新手操作演示</h1><p style="color:#e6fffb;margin-bottom:0">不用命令行：双击启动，填写花费，点按钮即可生成汇总。</p></header>
+  <main>
+    <section class="card"><h2>先看完整操作图</h2><img src="使用演示.svg" alt="旅行花费计算器操作界面示意图：启动、填写、保存和查看报表"></section>
+    <section class="card"><h2>1. 启动软件</h2><p>下载并解压便携 ZIP，双击 <strong>旅行花费计算器.exe</strong>。初次体验可以直接使用 ZIP 中的虚构样例；若要记录自己的行程，点击窗口上方的「新建/重置旅行」。</p></section>
+    <section class="card"><h2>2. 录入一笔花费</h2><ol><li>在窗口下方选择日期、类别和币种。</li><li>填写项目、原币金额、商家/地点和备注。</li><li>外币账目填写汇率，含义是「1 单位原币折合多少基准币」。金额换算会即时预览。</li><li>点击「新增」。记录会自动保存在软件目录，不用另点保存文件。</li></ol></section>
+    <section class="card"><h2>3. 修改或查看汇总</h2><p>点击上方表格的一条记录可载入编辑区；修改后点「保存修改」。点「打开互动汇总」会更新并打开离线报表，可按类别查看金额。</p><p><a href="旅行花费汇总.html">打开虚构样例报表</a> · <a href="travel-data.json">查看虚构样例数据</a></p></section>
+    <p class="note">图中的行程、商家和金额均为虚构数据。个人数据仅保存在本地软件目录。</p>
+  </main>
+</body>
+</html>
