@@ -1,0 +1,141 @@
+{
+  "SchemaVersion": 1,
+  "Settings": {
+    "TripName": "示例周末行程",
+    "BaseCurrency": "CNY",
+    "CreatedAt": "2026-10-08T20:51:17.5590910+08:00",
+    "UpdatedAt": "2026-10-08T20:51:17.8267376+08:00"
+  },
+  "Categories": [
+    {
+      "Id": "transport",
+      "Name": "交通",
+      "Color": "#2563eb",
+      "IsDefault": true
+    },
+    {
+      "Id": "lodging",
+      "Name": "住宿",
+      "Color": "#7c3aed",
+      "IsDefault": true
+    },
+    {
+      "Id": "food",
+      "Name": "餐饮",
+      "Color": "#ea580c",
+      "IsDefault": true
+    },
+    {
+      "Id": "activities",
+      "Name": "景点/活动",
+      "Color": "#16a34a",
+      "IsDefault": true
+    },
+    {
+      "Id": "shopping",
+      "Name": "购物",
+      "Color": "#db2777",
+      "IsDefault": true
+    },
+    {
+      "Id": "visa-insurance",
+      "Name": "签证/保险",
+      "Color": "#0891b2",
+      "IsDefault": true
+    },
+    {
+      "Id": "communication",
+      "Name": "通讯/网络",
+      "Color": "#4f46e5",
+      "IsDefault": true
+    },
+    {
+      "Id": "fees-exchange",
+      "Name": "手续费/换汇",
+      "Color": "#ca8a04",
+      "IsDefault": true
+    },
+    {
+      "Id": "medical",
+      "Name": "医疗",
+      "Color": "#dc2626",
+      "IsDefault": true
+    },
+    {
+      "Id": "other",
+      "Name": "其他",
+      "Color": "#64748b",
+      "IsDefault": true
+    }
+  ],
+  "ExchangeRates": [
+    {
+      "Currency": "CNY",
+      "Rate": 1.0,
+      "UpdatedAt": "2026-10-08T20:51:17.5590910+08:00"
+    },
+    {
+      "Currency": "JPY",
+      "Rate": 0.048,
+      "UpdatedAt": "2026-10-08T20:51:17.6682578+08:00"
+    }
+  ],
+  "Expenses": [
+    {
+      "Id": "60f4b5d1-ce71-4779-9e79-95ae93a25fc2",
+      "Date": "2026-05-01",
+      "Item": "市内交通",
+      "CategoryId": "transport",
+      "OriginalAmount": 32.0,
+      "Currency": "CNY",
+      "ExchangeRate": 1.0,
+      "ConvertedAmount": 32.0,
+      "Merchant": "示例商户 A",
+      "Notes": "虚构演示数据",
+      "CreatedAt": "2026-10-08T20:51:17.7507752+08:00",
+      "UpdatedAt": "2026-10-08T20:51:17.7507752+08:00"
+    },
+    {
+      "Id": "a3ffb1a2-9ecd-4df6-bc7d-25270d24ced3",
+      "Date": "2026-05-01",
+      "Item": "示例住宿",
+      "CategoryId": "lodging",
+      "OriginalAmount": 680.0,
+      "Currency": "CNY",
+      "ExchangeRate": 1.0,
+      "ConvertedAmount": 680.0,
+      "Merchant": "示例商户 B",
+      "Notes": "虚构演示数据",
+      "CreatedAt": "2026-10-08T20:51:17.8026278+08:00",
+      "UpdatedAt": "2026-10-08T20:51:17.8026278+08:00"
+    },
+    {
+      "Id": "e5b86587-fa24-4341-a695-c3505a8f166d",
+      "Date": "2026-05-02",
+      "Item": "博物馆门票",
+      "CategoryId": "activities",
+      "OriginalAmount": 60.0,
+      "Currency": "CNY",
+      "ExchangeRate": 1.0,
+      "ConvertedAmount": 60.0,
+      "Merchant": "示例场馆",
+      "Notes": "虚构演示数据",
+      "CreatedAt": "2026-10-08T20:51:17.8050279+08:00",
+      "UpdatedAt": "2026-10-08T20:51:17.8050279+08:00"
+    },
+    {
+      "Id": "8e847034-4b95-4134-a2f4-e7faa6ac0662",
+      "Date": "2026-05-02",
+      "Item": "主题咖啡馆",
+      "CategoryId": "food",
+      "OriginalAmount": 1400.0,
+      "Currency": "JPY",
+      "ExchangeRate": 0.048,
+      "ConvertedAmount": 67.20,
+      "Merchant": "示例商户 C",
+      "Notes": "虚构演示数据",
+      "CreatedAt": "2026-10-08T20:51:17.8073904+08:00",
+      "UpdatedAt": "2026-10-08T20:51:17.8073904+08:00"
+    }
+  ]
+}
